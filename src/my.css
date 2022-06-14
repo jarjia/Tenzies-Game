@@ -1,0 +1,58 @@
+body {
+    background-color: #0B2434;
+}
+.main {
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    margin: 50px auto;
+    display: flex;
+    padding: 30px;
+    border-radius: 5px;
+}
+.main-container {
+    align-self: center;
+    width: 100%;
+    text-align: center;
+}
+.btn-wrapper {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    gap: 10px;
+}
+.die {
+    color: black;
+    font-family: sans-serif;
+    font-size: 28px;
+    text-align: center;
+    font-weight: 500;
+    padding: 25px 5px;
+    border-radius: 8px;
+    user-select: none;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.15);
+    cursor: pointer;
+}
+.roll {
+    margin: 30px;
+    padding: 15px 55px;
+    border: none;
+    color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: purple;
+    filter: brightness(90%);
+    border-radius: 8px;
+    cursor: pointer;
+}
+.roll:active {
+    transform: scale(0.95, 0.95);
+}
+.h1 {
+    color: black;
+    font-family: sans-serif;
+}
+.win-p {
+    font-family: sans-serif;
+    font-size: 16px;
+}
